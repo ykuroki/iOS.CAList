@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BE38D3F1578AEE100D7EB3C /* CAListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE38D3E1578AEE100D7EB3C /* CAListViewController.xib */; };
+		7BEFC5281578A5360005D76B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFC5271578A5360005D76B /* UIKit.framework */; };
+		7BEFC52A1578A5360005D76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFC5291578A5360005D76B /* Foundation.framework */; };
+		7BEFC52C1578A5360005D76B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFC52B1578A5360005D76B /* CoreGraphics.framework */; };
+		7BEFC5321578A5360005D76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFC5301578A5360005D76B /* InfoPlist.strings */; };
+		7BEFC5341578A5360005D76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFC5331578A5360005D76B /* main.m */; };
+		7BEFC5381578A5360005D76B /* CAListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFC5371578A5360005D76B /* CAListAppDelegate.m */; };
+		7BEFC53B1578A5360005D76B /* CAListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFC53A1578A5360005D76B /* CAListViewController.m */; };
+		A8B7C7D71579E9B20071CC11 /* ZBBananaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7D61579E9B20071CC11 /* ZBBananaView.xib */; };
+		A8B7C7DA1579EAD70071CC11 /* ZBBananaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B7C7D91579EAD70071CC11 /* ZBBananaViewController.m */; };
+		A8B7C7DC1579F2570071CC11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B7C7DB1579F2570071CC11 /* QuartzCore.framework */; };
+		A8B7C7DF1579F2C90071CC11 /* ZBBananaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B7C7DE1579F2C90071CC11 /* ZBBananaLayer.m */; };
+		A8B7C7E81579F3960071CC11 /* banana1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E01579F3960071CC11 /* banana1.tiff */; };
+		A8B7C7E91579F3960071CC11 /* banana2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E11579F3960071CC11 /* banana2.tiff */; };
+		A8B7C7EA1579F3960071CC11 /* banana3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E21579F3960071CC11 /* banana3.tiff */; };
+		A8B7C7EB1579F3960071CC11 /* banana4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E31579F3960071CC11 /* banana4.tiff */; };
+		A8B7C7EC1579F3960071CC11 /* banana5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E41579F3960071CC11 /* banana5.tiff */; };
+		A8B7C7ED1579F3960071CC11 /* banana6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E51579F3960071CC11 /* banana6.tiff */; };
+		A8B7C7EE1579F3960071CC11 /* banana7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E61579F3960071CC11 /* banana7.tiff */; };
+		A8B7C7EF1579F3960071CC11 /* banana8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A8B7C7E71579F3960071CC11 /* banana8.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BE38D3E1578AEE100D7EB3C /* CAListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAListViewController.xib; sourceTree = "<group>"; };
+		7BEFC5231578A5360005D76B /* CAList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEFC5271578A5360005D76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BEFC5291578A5360005D76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BEFC52B1578A5360005D76B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BEFC52F1578A5360005D76B /* CAList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAList-Info.plist"; sourceTree = "<group>"; };
+		7BEFC5311578A5360005D76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BEFC5331578A5360005D76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BEFC5351578A5360005D76B /* CAList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAList-Prefix.pch"; sourceTree = "<group>"; };
+		7BEFC5361578A5360005D76B /* CAListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAListAppDelegate.h; sourceTree = "<group>"; };
+		7BEFC5371578A5360005D76B /* CAListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAListAppDelegate.m; sourceTree = "<group>"; };
+		7BEFC5391578A5360005D76B /* CAListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAListViewController.h; sourceTree = "<group>"; };
+		7BEFC53A1578A5360005D76B /* CAListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAListViewController.m; sourceTree = "<group>"; };
+		A8B7C7D61579E9B20071CC11 /* ZBBananaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBBananaView.xib; sourceTree = "<group>"; };
+		A8B7C7D81579EAD70071CC11 /* ZBBananaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBBananaViewController.h; sourceTree = "<group>"; };
+		A8B7C7D91579EAD70071CC11 /* ZBBananaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBBananaViewController.m; sourceTree = "<group>"; };
+		A8B7C7DB1579F2570071CC11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8B7C7DD1579F2C90071CC11 /* ZBBananaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBBananaLayer.h; sourceTree = "<group>"; };
+		A8B7C7DE1579F2C90071CC11 /* ZBBananaLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBBananaLayer.m; sourceTree = "<group>"; };
+		A8B7C7E01579F3960071CC11 /* banana1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana1.tiff; sourceTree = "<group>"; };
+		A8B7C7E11579F3960071CC11 /* banana2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana2.tiff; sourceTree = "<group>"; };
+		A8B7C7E21579F3960071CC11 /* banana3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana3.tiff; sourceTree = "<group>"; };
+		A8B7C7E31579F3960071CC11 /* banana4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana4.tiff; sourceTree = "<group>"; };
+		A8B7C7E41579F3960071CC11 /* banana5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana5.tiff; sourceTree = "<group>"; };
+		A8B7C7E51579F3960071CC11 /* banana6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana6.tiff; sourceTree = "<group>"; };
+		A8B7C7E61579F3960071CC11 /* banana7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana7.tiff; sourceTree = "<group>"; };
+		A8B7C7E71579F3960071CC11 /* banana8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banana8.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEFC5201578A5360005D76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B7C7DC1579F2570071CC11 /* QuartzCore.framework in Frameworks */,
+				7BEFC5281578A5360005D76B /* UIKit.framework in Frameworks */,
+				7BEFC52A1578A5360005D76B /* Foundation.framework in Frameworks */,
+				7BEFC52C1578A5360005D76B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEFC5181578A5360005D76B = {
+			isa = PBXGroup;
+			children = (
+				7BEFC52D1578A5360005D76B /* CAList */,
+				7BEFC5441578A5640005D76B /* Resources */,
+				7BEFC5261578A5360005D76B /* Frameworks */,
+				7BEFC5241578A5360005D76B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEFC5241578A5360005D76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEFC5231578A5360005D76B /* CAList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEFC5261578A5360005D76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7C7DB1579F2570071CC11 /* QuartzCore.framework */,
+				7BEFC5271578A5360005D76B /* UIKit.framework */,
+				7BEFC5291578A5360005D76B /* Foundation.framework */,
+				7BEFC52B1578A5360005D76B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BEFC52D1578A5360005D76B /* CAList */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7C7D11579E86C0071CC11 /* Banana */,
+				7BEFC5361578A5360005D76B /* CAListAppDelegate.h */,
+				7BEFC5371578A5360005D76B /* CAListAppDelegate.m */,
+				7BEFC5391578A5360005D76B /* CAListViewController.h */,
+				7BEFC53A1578A5360005D76B /* CAListViewController.m */,
+				7BEFC52E1578A5360005D76B /* Supporting Files */,
+			);
+			path = CAList;
+			sourceTree = "<group>";
+		};
+		7BEFC52E1578A5360005D76B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEFC52F1578A5360005D76B /* CAList-Info.plist */,
+				7BEFC5301578A5360005D76B /* InfoPlist.strings */,
+				7BEFC5331578A5360005D76B /* main.m */,
+				7BEFC5351578A5360005D76B /* CAList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BEFC5441578A5640005D76B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BEFC5461578A65E0005D76B /* images */,
+				7BEFC5451578A6450005D76B /* xib */,
+			);
+			name = Resources;
+			path = CAList/Resources;
+			sourceTree = "<group>";
+		};
+		7BEFC5451578A6450005D76B /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				7BE38D3E1578AEE100D7EB3C /* CAListViewController.xib */,
+				A8B7C7D61579E9B20071CC11 /* ZBBananaView.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		7BEFC5461578A65E0005D76B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7C7E01579F3960071CC11 /* banana1.tiff */,
+				A8B7C7E11579F3960071CC11 /* banana2.tiff */,
+				A8B7C7E21579F3960071CC11 /* banana3.tiff */,
+				A8B7C7E31579F3960071CC11 /* banana4.tiff */,
+				A8B7C7E41579F3960071CC11 /* banana5.tiff */,
+				A8B7C7E51579F3960071CC11 /* banana6.tiff */,
+				A8B7C7E61579F3960071CC11 /* banana7.tiff */,
+				A8B7C7E71579F3960071CC11 /* banana8.tiff */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A8B7C7D11579E86C0071CC11 /* Banana */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7C7D81579EAD70071CC11 /* ZBBananaViewController.h */,
+				A8B7C7D91579EAD70071CC11 /* ZBBananaViewController.m */,
+				A8B7C7DD1579F2C90071CC11 /* ZBBananaLayer.h */,
+				A8B7C7DE1579F2C90071CC11 /* ZBBananaLayer.m */,
+			);
+			path = Banana;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEFC5221578A5360005D76B /* CAList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEFC5411578A5360005D76B /* Build configuration list for PBXNativeTarget "CAList" */;
+			buildPhases = (
+				7BEFC51F1578A5360005D76B /* Sources */,
+				7BEFC5201578A5360005D76B /* Frameworks */,
+				7BEFC5211578A5360005D76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAList;
+			productName = CAList;
+			productReference = 7BEFC5231578A5360005D76B /* CAList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEFC51A1578A5360005D76B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAList;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7BEFC51D1578A5360005D76B /* Build configuration list for PBXProject "CAList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BEFC5181578A5360005D76B;
+			productRefGroup = 7BEFC5241578A5360005D76B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEFC5221578A5360005D76B /* CAList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEFC5211578A5360005D76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEFC5321578A5360005D76B /* InfoPlist.strings in Resources */,
+				7BE38D3F1578AEE100D7EB3C /* CAListViewController.xib in Resources */,
+				A8B7C7D71579E9B20071CC11 /* ZBBananaView.xib in Resources */,
+				A8B7C7E81579F3960071CC11 /* banana1.tiff in Resources */,
+				A8B7C7E91579F3960071CC11 /* banana2.tiff in Resources */,
+				A8B7C7EA1579F3960071CC11 /* banana3.tiff in Resources */,
+				A8B7C7EB1579F3960071CC11 /* banana4.tiff in Resources */,
+				A8B7C7EC1579F3960071CC11 /* banana5.tiff in Resources */,
+				A8B7C7ED1579F3960071CC11 /* banana6.tiff in Resources */,
+				A8B7C7EE1579F3960071CC11 /* banana7.tiff in Resources */,
+				A8B7C7EF1579F3960071CC11 /* banana8.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEFC51F1578A5360005D76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEFC5341578A5360005D76B /* main.m in Sources */,
+				7BEFC5381578A5360005D76B /* CAListAppDelegate.m in Sources */,
+				7BEFC53B1578A5360005D76B /* CAListViewController.m in Sources */,
+				A8B7C7DA1579EAD70071CC11 /* ZBBananaViewController.m in Sources */,
+				A8B7C7DF1579F2C90071CC11 /* ZBBananaLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BEFC5301578A5360005D76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEFC5311578A5360005D76B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BEFC53F1578A5360005D76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7BEFC5401578A5360005D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEFC5421578A5360005D76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAList/CAList-Prefix.pch";
+				INFOPLIST_FILE = "CAList/CAList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BEFC5431578A5360005D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAList/CAList-Prefix.pch";
+				INFOPLIST_FILE = "CAList/CAList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEFC51D1578A5360005D76B /* Build configuration list for PBXProject "CAList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEFC53F1578A5360005D76B /* Debug */,
+				7BEFC5401578A5360005D76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEFC5411578A5360005D76B /* Build configuration list for PBXNativeTarget "CAList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEFC5421578A5360005D76B /* Debug */,
+				7BEFC5431578A5360005D76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BEFC51A1578A5360005D76B /* Project object */;
+}
